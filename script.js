@@ -2,6 +2,8 @@ let listaNumeros = [];
 const limiteSorteio = 101;
 
 document.querySelector('.btn').addEventListener('click', (event) => {
+    event.preventDefault();
+
     limparResultados();
     
     listaNumeros = [];
