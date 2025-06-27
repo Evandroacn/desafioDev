@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <h1>Gerador de lista numérica aleátoria</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <form action="#">
+                <label class="label" for="listaDeNumeros">Quantidade de números</label>
+                <input class="inputField" type="number" id="listaDeNumeros" placeholder="Informe a quantidade de números" min="1" max="100">
+                <button class="btn">Gerar números</button>
+            </form>
+        </section>
+
+        <section>
+            <div class="resultado">
+                <h3>Dados dos números gerados</h3>
+                <div>
+                    <p>Números sorteados:</p>
+                    <div class="listaNumerosSorteados"></div>
+                </div>
+                
+                <div class="dadosGerais">
+                    <p class="media"></p>
+                    <p class="maiorN"></p>
+                    <p class="menorN"></p>
+                    <p class="contPar">Quantidade de números pares:</p>
+                    <p class="contImpar">Quantidade de números ímpares:</p>
+                </div>
+            </div>
+
+            <div class="error"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div>Criado por Evandro Alves</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
